@@ -10,4 +10,4 @@ Execute script with the next command:
 getPowerBiActivities.ps1 -daysCount 30 -filesDirectory D:\work\reports
 
 
-This script will automatically execute Login-PowerBi, Get-PowerBIActivityEvent and Export-Csv commands and save 30 .csv files for every date in this range to D:\work\reports directory, even if this directory does not exist. 
+This script will automatically execute Login-PowerBi, Get-PowerBIActivityEvent and Export-Csv commands and save 30 .csv files for every date in this range to D:\work\reports directory, even if this directory wasn't existed previosly. 
